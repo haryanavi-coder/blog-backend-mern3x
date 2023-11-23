@@ -11,7 +11,7 @@ const User = require('./Models/UserSchema')
 app.use(bodyParser.json());
 
 // Configure CORS with credentials
-const allowedOrigins = ['http://localhost:3000', 'https://tame-gray-octopus-veil.cyclic.app/']; // Add more origins as needed
+const allowedOrigins = ['http://localhost:3000', 'https://tame-gray-octopus-veil.cyclic.app']; // Add more origins as needed
 app.use(
     cors({
         origin: function (origin, callback) {
