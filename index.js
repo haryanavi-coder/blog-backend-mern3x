@@ -8,6 +8,7 @@ require('dotenv').config();
 require('./db.js');
 const User = require('./Models/UserSchema')
 
+
 app.use(bodyParser.json());
 
 // Configure CORS with credentials
