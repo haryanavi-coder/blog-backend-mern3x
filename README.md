@@ -1,4 +1,4 @@
-Blog App 
+## Blog App 
 
 Here, you can read and even write your own blogs. 
 Admin can update and delete it's own blogs.
